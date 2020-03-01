@@ -20,3 +20,8 @@ print(b[2:12:2])    	     # from 2 to 11 with step size 2
 print('my nick name is ' + b[15:]) #Concatanation
 print(b * 2)                 # multiplication of arrays
 
+x = 'HeLlo World'            # some of the attributes and methods we can get by '.'
+print(x.upper())
+print(x.lower())
+print(x.split())
+print(x.split('o'))
