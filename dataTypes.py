@@ -9,3 +9,5 @@ e = {                           # dictionaries
 
 #TUPLES, SET
 print(a, b, c, d, e)
+
+print(type(a))                  # checking datatype
