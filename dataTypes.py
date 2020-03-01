@@ -1,4 +1,11 @@
-a = 2.4
-print(a)
+a = 3                           # ineteger
+b = 2.3                         # float
+c = 'hello world'               # string
+d = [1, 'Eliza', 2.20]          # List
+e = {                           # dictionaries
+    'name' : 'Eliza',   
+    'id' : 151115122
+}
 
-print("Hello world")
+#TUPLES, SET
+print(a, b, c, d, e)
