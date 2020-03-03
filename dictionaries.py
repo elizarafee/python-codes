@@ -49,4 +49,4 @@ my_dictionary['k1'] = 100             	        # chananging value
 print(my_dictionary)
 print(my_dictionary.keys())                     # getting keys from dictionaries
 print(my_dictionary.values())                   # getting values from dictionaries
-print(my_dictionary.items())                    # items from dictionaries
+print(my_dictionary.items())                    # getting items from dictionaries
