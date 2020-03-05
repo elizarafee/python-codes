@@ -3,7 +3,7 @@
 # supports Indexing and slicing
 # Lists can be nested and have useful methods
 
-my_list = [1, 1.3 , 'Hasan', 'Mohammad', 'Tareque']
+my_list = [1, 1.3, 'Hasan', 'Mohammad', 'Tareque']
 print(len(my_list))
 print(my_list[1])
 print(my_list[2:])
@@ -14,29 +14,31 @@ print(new_list)
 my_2nd_list[1] = 'Tareque'                             # changing value of set
 print(my_2nd_list)
 
-my_2nd_list.append('Hasan')                            #  adding value in list
+my_2nd_list.append('Hasan')  # adding value in list
 print(my_2nd_list)
 
-my_list.pop(0)                                         # deleting value from list
+# deleting value from list
+my_list.pop(0)
 print(my_list)
 my_list.pop(0)
 print(my_list)
 
-number_list = [3,2,4,2,5,1,7,4,7]
+number_list = [3, 2, 4, 2, 5, 1, 7, 4, 7]
 print(number_list)
 number_list.sort()                                     # sorting
 print(number_list)
 
 
-number_2nd_list = [3,2,4,2,5,1,7,4,7]
+number_2nd_list = [3, 2, 4, 2, 5, 1, 7, 4, 7]
 print(number_list)
 number_2nd_list.sort()
 a = number_list
 print(a)
 
-c = number_2nd_list.sort()                             # can't reassigned in this way so the type of C will be None
+# can't reassigned in this way so the type of C will be None
+c = number_2nd_list.sort()
 print(c)
 
-number_3nd_list = [3,2,4,2,5,1,7,4,7]                  # reversing list
+number_3nd_list = [3, 2, 4, 2, 5, 1, 7, 4, 7]                  # reversing list
 number_3nd_list.reverse()
 print(number_3nd_list)

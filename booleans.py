@@ -5,7 +5,7 @@ print(1 > 2)
 print(1 == 2)
 # NoneType
 # print(b) # error will be displayed because b is not declared
-b = None                                    #NoneType
+b = None  # NoneType
 print(b)
 a = True
 c = False

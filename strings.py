@@ -1,6 +1,6 @@
 # Strings are ordered sequences. Means it can be INDEXED and SLICED to grab sub-section
 # INDEXING notation uses []
-# SLICING has a syntex [start. stop. step] start - starting, stop - go up to, step - size 
+# SLICING has a syntex [start. stop. step] start - starting, stop - go up to, step - size
 
 
 a = 'Eliza Ahmed Rafee'
@@ -17,7 +17,7 @@ print(b[::2])                # next 2nd index next to it
 print(b[2:12:2])    	     # from 2 to 11 with step size 2
 
 # b[3] = 'e'                 # changing letters in this way is not acceptable in python
-print('my nick name is ' + b[15:]) #Concatanation
+print('my nick name is ' + b[15:])  # Concatanation
 print(b * 2)                 # multiplication of arrays
 
 x = 'HeLlo World'            # some of the attributes and methods we can get by '.'

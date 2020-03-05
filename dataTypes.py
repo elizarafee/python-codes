@@ -3,8 +3,8 @@ b = 2.3                         # float
 c = 'hello world'               # string
 d = [1, 'Eliza', 2.20]          # List
 e = {                           # dictionaries
-    'name' : 'Eliza',   
-    'id' : 151115122
+    'name': 'Eliza',
+    'id': 151115122
 }
 
 #TUPLES, SET
