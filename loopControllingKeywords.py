@@ -11,7 +11,6 @@ for num in a:
         print(num)
 
 b = []
-
 # error will be shown coz nothing is done in the loop. For getting rid of this problem there's a key to use 'pass'
 # => for num in b:
 for num in b:
