@@ -10,3 +10,5 @@ myList.pop()
 
 # The secret module is used for generating cryptographycally rendom numbers suitable for managing data such as
 # password, account authentication, security token and so on
+
+#for knowing all the methods available in python then (python documentation)
