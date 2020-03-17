@@ -23,7 +23,7 @@ class Animal():
     def first_method(altself, tail):
         print("The species is {}, name is {}, color is {}, it has tail: {} ".format(Animal.species, altself.perName, altself.perColor, tail))
 
-# creating object of a class, the attributes are assigned as they are mentioned in the constructor(__init__)
+# creating object of a class, the attribuStes are assigned as they are mentioned in the constructor(__init__)
 animal = Animal('puppy', 12)
 
 # method's attribute is passed like this
