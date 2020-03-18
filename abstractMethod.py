@@ -1,4 +1,4 @@
-# In the case of abstract there have to be at least two classes one is the base class and the others are called derive class where the 'raise' keyword methods used in the base class  have to be implemented on the derive class
+# In the case of abstract there have to be at least two classes one is the base class and the others are called derive class where the 'raise' keyword used methods from the base class have to be implemented on the derive class
 class animal ():
     def __init__(self, name):
         self.name = name
