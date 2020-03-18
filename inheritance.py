@@ -16,5 +16,6 @@ class Dog(Animal):
 # Dog is inheriting the Animal class so the methods of Animal class can be called by Dog class
 dog = Dog('puppy')
 print(dog.pername)
+
 # The string has been changed by overriding
 dog.bark()
