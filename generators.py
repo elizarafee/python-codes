@@ -22,3 +22,15 @@ for x in generator_func(10):
     print(x)
 
 print(list(generator_func(3)))
+
+# generate ficonacci by Generator
+def gen_fibo(n):
+    a = 1
+    b = 1
+    for x in range(n):
+        yield a
+        a , b = b , a+b
+
+
+for x in gen_fibo(15):
+    print(x) 
